@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:layout_width="-1" android:layout_height="-1">
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-mdpi-v4/bg_blue.png" android:scaleType="1" />
+		<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<include android:layout_width="-1" android:layout_height="-2" layout="@layout/header_menu" />
+			<FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="160dp">
+				<ImageView android:layout_gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="200dp" android:src="res/drawable-mdpi-v4/barcode_image.png" />
+				<ImageView android:layout_gravity="17" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="25dp" />
+				<EditText android:enabled="false" android:textColorHint="a52a2a" android:layout_gravity="16" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="80dp" android:layout_marginRight="80dp" android:layout_marginBottom="50dp" android:hint="Use Barcode Scanner" android:ems="10" />
+			</FrameLayout>
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="81" android:visibility="0" android:layout_width="-2" android:layout_height="-2">
+			<include android:layout_width="-2" android:layout_height="-2" layout="@layout/footer_menu" />
+		</FrameLayout>
+	</FrameLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:layout_width="-2" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-mdpi-v4/bg_blue.png" />
+		<Button android:layout_gravity="81" android:id="false" android:background="res/drawable-mdpi-v4/bt_home_th.png" android:layout_width="-2" android:layout_height="-2" />
+		<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<include android:layout_width="-2" android:layout_height="-2" layout="@layout/header_menu" />
+			<TextView android:textAppearance="{2:16842816}" android:textSize="22sp" android:textStyle="1" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="52dp" android:text="ระบบรับแจ้งปัญหาแล้วเจ้าหน้าที่จะดำเนินการตรวจสอบต่อไป" />
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

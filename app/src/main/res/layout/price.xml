@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="res/drawable-mdpi-v4/bg_blue.png" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+		<include android:layout_width="-2" android:layout_height="-2" layout="@layout/header_menu" />
+		<TextView android:textAppearance="{2:16842816}" android:textSize="40sp" android:textStyle="1" android:textColor="000" android:layout_gravity="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="80dp" android:text="xoxoxoxo" />
+		<LinearLayout android:layout_gravity="17" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-1">
+			<LinearLayout android:layout_width="-2" android:layout_height="-2" />
+			<LinearLayout android:layout_width="-2" android:layout_height="-2" />
+			<LinearLayout android:layout_width="-2" android:layout_height="-2" />
+			<LinearLayout android:layout_width="-2" android:layout_height="-2" />
+		</LinearLayout>
+	</LinearLayout>
+	<FrameLayout android:layout_gravity="81" android:layout_width="-2" android:layout_height="-2">
+		<include android:layout_width="-2" android:layout_height="-2" layout="@layout/footer_menu" />
+	</FrameLayout>
+</FrameLayout>

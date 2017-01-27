@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable-mdpi-v4/bg_blue.png" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+		<include android:layout_width="-2" android:layout_height="-2" layout="@layout/header_menu" />
+		<LinearLayout android:layout_gravity="17" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<FrameLayout android:layout_width="-1" android:layout_height="-2">
+				<CheckBox android:textColor="000" android:layout_gravity="5" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="เสียงเบอร์โทร" />
+				<TextView android:textAppearance="{2:16842818}" android:textSize="25sp" android:textStyle="1" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="เลือกเมนูจัดการ" />
+			</FrameLayout>
+			<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp">
+				<Button android:textSize="18sp" android:textStyle="1" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-2" android:layout_height="-2" android:text="ดูรายละเอียดตู้" />
+				<Button android:textSize="18sp" android:textStyle="1" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-2" android:layout_height="-2" android:text="เปิดตู้เติมเงิน" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="-2" android:layout_height="-2">
+				<Button android:textSize="18sp" android:textStyle="1" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-2" android:layout_height="-2" android:text="รายงานเติมเงิน" />
+				<Button android:textSize="18sp" android:textStyle="1" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-2" android:layout_height="-2" android:text="Clear ยอดเงิน" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="-2" android:layout_height="-2">
+				<Button android:textSize="18sp" android:textStyle="1" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-2" android:layout_height="-2" android:text="ตั้งค่าตู้เติมเงิน" />
+				<Button android:textSize="18sp" android:textStyle="1" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-2" android:layout_height="-2" android:text="ReBoot" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="-2" android:layout_height="-2">
+				<Button android:textSize="18sp" android:textStyle="1" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-2" android:layout_height="-2" android:text="ออกจากระบบ" />
+				<Button android:textSize="18sp" android:textStyle="1" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-2" android:layout_height="-2" android:text="ลบ Log" />
+			</LinearLayout>
+			<TextView android:textAppearance="{2:16842817}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Sound" />
+			<LinearLayout android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1073741824}">
+				<SeekBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="10dp" android:layout_weight="{4:1065353216}" />
+				<SeekBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<Button android:layout_gravity="81" android:id="false" android:background="res/drawable-mdpi-v4/bt_the_first_page_th.png" android:layout_width="-2" android:layout_height="-2" />
+	<FrameLayout android:layout_gravity="81" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+		<include android:layout_width="-2" android:layout_height="-2" layout="@layout/footer_menu" />
+	</FrameLayout>
+</FrameLayout>

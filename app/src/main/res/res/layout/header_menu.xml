@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable-mdpi-v4/header_bg.png" android:scaleType="1" />
+		<ImageView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-mdpi-v4/bg_camera.png" />
+		<FrameLayout android:id="false" android:layout_width="110dp" android:layout_height="110dp" android:layout_marginLeft="7dp" android:layout_marginTop="7dp" />
+		<TextView android:textAppearance="{2:16842816}" android:textSize="25sp" android:layout_gravity="16" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Large Text" />
+		<TextView android:textSize="30sp" android:textStyle="1" android:ellipsize="4" android:layout_gravity="81" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="23dp" android:text="hellobar" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="-1" />
+		<LinearLayout android:layout_gravity="5" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<Button android:id="false" android:background="res/drawable-mdpi-v4/thai.png" android:layout_width="-2" android:layout_height="-2" style="?android:attr/buttonStyleSmall" />
+		</LinearLayout>
+		<LinearLayout android:layout_gravity="21" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16777206dp" android:layout_marginRight="5dp">
+			<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+				<DigitalClock android:textSize="25sp" android:textStyle="1" android:textColor="ffffff" android:layout_gravity="5" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="DigitalClock" />
+				<TextView android:textAppearance="{2:16842818}" android:textSize="15sp" android:textStyle="1" android:textColor="ffffff" android:layout_gravity="5" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5px" android:text="Sat, Aug 28, 2012" />
+				<FrameLayout android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textAppearance="{2:16842817}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Medium Text" />
+					<ImageView android:layout_gravity="5" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" />
+				</FrameLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10px">
+				<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+				<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+		</LinearLayout>
+	</FrameLayout>
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="res/drawable-mdpi-v4/bg_orange.png" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+		<include android:layout_width="-2" android:layout_height="-2" layout="@layout/header_menu" />
+		<TextView android:textAppearance="{2:16842818}" android:textSize="25sp" android:textStyle="1" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="xoxoxoxoxoxoxo" />
+		<LinearLayout android:layout_gravity="17" android:layout_width="-2" android:layout_height="-2">
+			<Button android:textSize="18sp" android:textStyle="1" android:textColor="000" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-2" android:layout_height="-2" android:text="xoxoxoxoxo" android:layout_weight="{4:1060320051}" />
+			<Button android:textSize="18sp" android:textColor="000" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-1" android:layout_height="-2" android:text="xoxoxoxoxo" android:layout_weight="{4:1060320051}" />
+		</LinearLayout>
+		<LinearLayout android:layout_gravity="17" android:layout_width="-2" android:layout_height="-2">
+			<Button android:textSize="18sp" android:textStyle="1" android:textColor="000" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-2" android:layout_height="-2" android:text="xoxoxoxoxo" android:layout_weight="{4:1060320051}" />
+			<Button android:textSize="18sp" android:textStyle="1" android:textColor="000" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-2" android:layout_height="-2" android:text="xoxoxoxoxo" android:layout_weight="{4:1060320051}" />
+		</LinearLayout>
+		<LinearLayout android:layout_gravity="17" android:layout_width="-2" android:layout_height="-2">
+			<Button android:textSize="18sp" android:textStyle="1" android:textColor="000" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-1" android:layout_height="-2" android:text="xoxoxoxoxo" android:layout_weight="{4:1060320051}" />
+		</LinearLayout>
+	</LinearLayout>
+	<FrameLayout android:layout_gravity="81" android:layout_width="-2" android:layout_height="-2">
+		<include android:layout_width="-2" android:layout_height="-2" layout="@layout/footer_menu" />
+	</FrameLayout>
+</FrameLayout>

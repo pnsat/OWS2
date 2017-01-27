@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable-mdpi-v4/bg_orange.png" android:layout_width="-2" android:layout_height="-2">
+	<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+		<include android:layout_width="-2" android:layout_height="-2" layout="@layout/header_menu" />
+		<TextView android:textAppearance="{2:16842816}" android:textSize="25sp" android:textStyle="1" android:textColor="000" android:ellipsize="4" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="วีดีโอสาธิต..." android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="-1" />
+		<VideoView android:id="false" android:layout_width="-1" android:layout_height="324dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" />
+		<Button android:textSize="22sp" android:textStyle="1" android:layout_gravity="5" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:text="xoxoxoxo" style="?android:attr/buttonStyleSmall" />
+	</LinearLayout>
+	<FrameLayout android:layout_gravity="81" android:layout_width="-2" android:layout_height="-2">
+		<include android:layout_width="-2" android:layout_height="-2" layout="@layout/footer_menu" />
+	</FrameLayout>
+</FrameLayout>

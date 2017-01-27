@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="res/drawable-mdpi-v4/bg_blue.png" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="81" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:layout_gravity="17" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="30dp">
+			<Button android:id="false" android:background="res/drawable-mdpi-v4/how_to_use_th.png" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+			<Button android:id="false" android:background="res/drawable-mdpi-v4/report_th.png" android:layout_width="-2" android:layout_height="-2" />
+		</LinearLayout>
+		<include android:layout_width="-2" android:layout_height="-2" layout="@layout/footer_menu" />
+	</LinearLayout>
+	<FrameLayout android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:layout_gravity="17" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<include android:layout_gravity="17" android:layout_width="-2" android:layout_height="0dp" android:layout_weight="{4:1065353216}" layout="@layout/header_menu" />
+			<TextView android:textAppearance="{2:16842816}" android:textSize="28sp" android:textStyle="1" android:textColor="000" android:layout_gravity="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="เลือกบริการที่ท่านต้องการ" android:layout_weight="{4:1065353216}" />
+			<Button android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="300dp" android:text="Button" android:layout_weight="{4:1065353216}" />
+			<LinearLayout android:layout_gravity="1" android:layout_width="-2" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+				<Button android:id="false" android:background="res/drawable-mdpi-v4/mobile_topup_th.png" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+				<Button android:id="false" android:background="res/drawable-mdpi-v4/game_th.png" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+			<LinearLayout android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<Button android:id="false" android:background="res/drawable-mdpi-v4/card_th.png" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+				<Button android:id="false" android:background="res/drawable-mdpi-v4/billing_th_on.png" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<Button android:id="false" android:background="res/drawable-mdpi-v4/billing_other_th.png" android:layout_width="-2" android:layout_height="-2" />
+				<Button android:id="false" android:background="res/drawable-mdpi-v4/barcode_th.png" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+		</LinearLayout>
+	</FrameLayout>
+</FrameLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<FrameLayout android:background="f16d23" android:layout_width="-1" android:layout_height="40dp">
+			<ImageView android:layout_gravity="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/ic_launcher.png" />
+			<FrameLayout android:layout_gravity="3" android:id="false" android:visibility="2" android:layout_width="110dp" android:layout_height="110dp" android:layout_marginLeft="7dp" android:layout_marginTop="7dp" />
+			<LinearLayout android:layout_gravity="5" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp">
+				<TextView android:textAppearance="{2:16842816}" android:textSize="25sp" android:layout_gravity="16" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="3dp" android:text="Large Text" />
+				<Button android:id="false" android:background="res/drawable-mdpi-v4/thai.png" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+			<LinearLayout android:layout_gravity="17" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="40dp">
+				<TextView android:textSize="20sp" android:textStyle="1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Sat, Aug 28, 2012" />
+				<DigitalClock android:textSize="25sp" android:textStyle="1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="DigitalClock" />
+				<TextView android:textSize="20sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="Medium Text" />
+				<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+				<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10px">
+					<ImageView android:layout_gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+				</LinearLayout>
+			</LinearLayout>
+		</FrameLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:background="f16d23" android:layout_width="-1" android:layout_height="40dp">
+			<FrameLayout android:background="ffffff" android:layout_width="-1" android:layout_height="2dp" />
+			<FrameLayout android:layout_gravity="1" android:background="ffffff" android:layout_width="250dp" android:layout_height="3dp" />
+			<TextView android:textSize="26sp" android:textStyle="1" android:textColor="ffffff" android:ellipsize="4" android:layout_gravity="16" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:text="hellobar" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="-1" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="40dp">
+			<FrameLayout android:layout_width="-1" android:layout_height="35dp">
+				<Button android:textSize="22sp" android:textColor="000" android:layout_gravity="16" android:id="false" android:tag="cancel" android:background="ffffff" android:layout_width="-2" android:layout_height="-2" android:text="       หน้าหลัก" />
+				<ImageView android:layout_gravity="16" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" android:layout_marginTop="2dp" android:src="res/drawable-land-mdpi-v4/ic_head_backtosplash.png" />
+				<TextView android:textSize="22sp" android:textColor="000" android:layout_gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+				<FrameLayout android:layout_gravity="5" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="1dp">
+					<Button android:textSize="22sp" android:textColor="000" android:layout_gravity="16" android:id="false" android:tag="back" android:background="ffffff" android:layout_width="-2" android:layout_height="-2" android:text="ยกเลิก        " />
+					<ImageView android:layout_gravity="21" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="3dp" android:src="res/drawable-land-mdpi-v4/ic_head_sendproblem.png" />
+				</FrameLayout>
+			</FrameLayout>
+			<FrameLayout android:layout_gravity="1" android:background="f16d23" android:layout_width="250dp" android:layout_height="3dp" />
+			<FrameLayout android:background="f16d23" android:layout_width="-1" android:layout_height="2dp" />
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

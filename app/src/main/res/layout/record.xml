@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable-mdpi-v4/bg_blue.png" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+		<include android:layout_width="-2" android:layout_height="-2" layout="@layout/header_menu" />
+		<TableLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" />
+		<FrameLayout android:layout_gravity="80" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp">
+			<Button android:textSize="18sp" android:textStyle="1" android:layout_gravity="5" android:id="false" android:background="res/drawable-mdpi-v4/bt_number.png" android:layout_width="-2" android:layout_height="60dp" android:text="Next" />
+			<Button android:textSize="18sp" android:textStyle="1" android:id="false" android:background="res/drawable-mdpi-v4/bt_number.png" android:layout_width="-2" android:layout_height="60dp" android:text="prev" />
+		</FrameLayout>
+	</LinearLayout>
+	<FrameLayout android:layout_gravity="81" android:layout_width="-2" android:layout_height="-2">
+		<include android:layout_width="-2" android:layout_height="-2" layout="@layout/footer_menu" />
+	</FrameLayout>
+</FrameLayout>

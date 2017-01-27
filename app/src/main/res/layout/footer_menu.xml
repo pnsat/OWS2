@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+	<LinearLayout android:layout_gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2">
+		<Button android:id="false" android:background="res/drawable-mdpi-v4/bt_back_th.png" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+		<Button android:id="false" android:background="res/drawable-mdpi-v4/bt_cancel_th.png" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+		<Button android:id="false" android:background="res/drawable-mdpi-v4/bt_next_th.png" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+	<FrameLayout android:layout_gravity="17" android:layout_width="-2" android:layout_height="-2">
+		<ImageView android:layout_gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-mdpi-v4/bg_version.png" />
+		<TextView android:textAppearance="{2:16842817}" android:textSize="24sp" android:textStyle="1" android:ellipsize="4" android:layout_gravity="17" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-2" android:layout_height="-2" android:text="Online Topup Firmware Version 1.0 Build 1.0 Status OK" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="-1" />
+	</FrameLayout>
+</LinearLayout>

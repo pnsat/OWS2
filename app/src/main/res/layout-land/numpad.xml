@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:background="ffffff" android:layout_width="-1" android:layout_height="-1" />
+	<include android:layout_width="-1" android:layout_height="-2" layout="@layout/header_menu" />
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="80dp" android:weightSum="{4:1073741824}">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<ImageView android:layout_gravity="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" />
+			<TextView android:textAppearance="{2:16842816}" android:textSize="50sp" android:textStyle="1" android:textColor="000" android:layout_gravity="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="xoxoxoxo" />
+			<EditText android:textSize="45sp" android:textStyle="1" android:textColor="000" android:gravity="1" android:layout_gravity="1" android:id="false" android:background="res/drawable-land-mdpi-v4/textfield_bg.png" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:ems="6" android:inputType="2" />
+			<TextView android:textAppearance="{2:16842816}" android:textSize="26sp" android:textStyle="1" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:text="กรุณากรอกเบอร์โทรศัพท์มือถือ ของท่านจำนวน 10 หลัก" />
+			<Button android:textSize="50sp" android:textColor="ffffff" android:layout_gravity="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_confirm.png" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="ตกลงยืนยัน" />
+		</LinearLayout>
+		<TableLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="10dp" android:layout_weight="{4:1065353216}">
+			<TableRow android:id="false" android:layout_width="-2" android:layout_height="15dp">
+				<Button android:textSize="50sp" android:textStyle="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_frame.png" android:layout_width="115dp" android:layout_height="88dp" android:text="1" android:hint="1" />
+				<Button android:textSize="50sp" android:textStyle="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_frame.png" android:layout_width="115dp" android:layout_height="88dp" android:layout_marginLeft="10dp" android:text="2" android:hint="2" />
+				<Button android:textSize="50sp" android:textStyle="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_frame.png" android:layout_width="115dp" android:layout_height="88dp" android:layout_marginLeft="10dp" android:text="3" android:hint="3" />
+			</TableRow>
+			<TableRow android:id="false" android:layout_width="-2" android:layout_height="15dp" android:layout_marginTop="5dp">
+				<Button android:textSize="50sp" android:textStyle="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_frame.png" android:layout_width="115dp" android:layout_height="88dp" android:text="4" android:hint="4" />
+				<Button android:textSize="50sp" android:textStyle="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_frame.png" android:layout_width="115dp" android:layout_height="88dp" android:layout_marginLeft="10dp" android:text="5" android:hint="5" />
+				<Button android:textSize="50sp" android:textStyle="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_frame.png" android:layout_width="115dp" android:layout_height="88dp" android:layout_marginLeft="10dp" android:text="6" android:hint="6" />
+			</TableRow>
+			<TableRow android:id="false" android:layout_width="-2" android:layout_height="15dp" android:layout_marginTop="5dp">
+				<Button android:textSize="50sp" android:textStyle="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_frame.png" android:layout_width="115dp" android:layout_height="88dp" android:text="7" android:hint="7" />
+				<Button android:textSize="50sp" android:textStyle="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_frame.png" android:layout_width="115dp" android:layout_height="88dp" android:layout_marginLeft="10dp" android:text="8" android:hint="8" />
+				<Button android:textSize="50sp" android:textStyle="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_frame.png" android:layout_width="115dp" android:layout_height="88dp" android:layout_marginLeft="10dp" android:text="9" android:hint="9" />
+			</TableRow>
+			<TableRow android:id="false" android:layout_width="-2" android:layout_height="15dp" android:layout_marginTop="5dp">
+				<Button android:textSize="50sp" android:textStyle="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_frame.png" android:layout_width="115dp" android:layout_height="88dp" android:text="*" android:hint="star" />
+				<Button android:textSize="50sp" android:textStyle="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_frame.png" android:layout_width="115dp" android:layout_height="88dp" android:layout_marginLeft="10dp" android:text="0" android:hint="0" />
+				<Button android:textSize="50sp" android:textStyle="1" android:id="false" android:background="res/drawable-land-mdpi-v4/button_frame.png" android:layout_width="115dp" android:layout_height="88dp" android:layout_marginLeft="10dp" android:text="ลบ" android:hint="delete" />
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>
+	<FrameLayout android:layout_gravity="85" android:layout_width="-1" android:layout_height="-2">
+		<include android:layout_width="-1" android:layout_height="-2" layout="@layout/footer_menu" />
+	</FrameLayout>
+</FrameLayout>

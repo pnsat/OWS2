@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:layout_width="-2" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-mdpi-v4/bg_blue.png" />
+		<Button android:layout_gravity="81" android:id="false" android:background="res/drawable-mdpi-v4/bt_the_first_page_th.png" android:layout_width="-2" android:layout_height="-2" />
+		<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<include android:layout_width="-2" android:layout_height="-2" layout="@layout/header_menu" />
+			<TextView android:textAppearance="{2:16842818}" android:textSize="26sp" android:textStyle="1" android:textColor="000" android:layout_gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="กรุณาตรวจสอบข้อมูล" />
+			<TextView android:textAppearance="{2:16842818}" android:textSize="26sp" android:textStyle="1" android:textColor="000" android:layout_gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="กรุณาตรวจสอบข้อมูล" />
+		</LinearLayout>
+		<FrameLayout android:layout_gravity="81" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+			<include android:layout_width="-2" android:layout_height="-2" layout="@layout/footer_menu" />
+		</FrameLayout>
+	</FrameLayout>
+</LinearLayout>

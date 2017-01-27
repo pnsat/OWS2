@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<include android:layout_width="-1" android:layout_height="-2" layout="@layout/header_menu" />
+	<FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="80dp">
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-mdpi-v4/bg_blue.png" android:scaleType="1" />
+		<FrameLayout android:background="ffffff" android:layout_width="-1" android:layout_height="-1" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:weightSum="{4:1073741824}">
+			<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+			<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-land-mdpi-v4/splash_banner.png" android:layout_weight="{4:1065353216}" />
+		</LinearLayout>
+		<FrameLayout android:layout_gravity="85" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+			<include android:layout_width="-1" android:layout_height="-2" layout="@layout/footer_menu" />
+		</FrameLayout>
+	</FrameLayout>
+</FrameLayout>

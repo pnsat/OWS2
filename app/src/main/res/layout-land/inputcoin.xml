@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="res/drawable-mdpi-v4/bg_blue.png" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:background="ffffff" android:layout_width="-1" android:layout_height="-1" />
+	<include android:layout_width="-1" android:layout_height="-2" layout="@layout/header_menu" />
+	<LinearLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="80dp" android:weightSum="{4:1084227584}">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_weight="{4:1077936128}">
+			<ImageView android:layout_gravity="1" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp">
+				<EditText android:enabled="false" android:textSize="45sp" android:textStyle="1" android:textColor="000" android:id="false" android:background="res/drawable-land-mdpi-v4/textfield_bg.png" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:ems="6" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+			<TextView android:textSize="30dp" android:textStyle="1" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="เตรียมเงินให้พร้อม และกรุณาหยอดช้าๆ" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="10dp" android:layout_weight="{4:1073741824}">
+			<TextView android:textSize="40sp" android:textStyle="1" android:textColor="000" android:layout_gravity="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="กรุณาตรวจสอบข้อมูล" />
+			<LinearLayout android:layout_gravity="17" android:layout_width="-2" android:layout_height="-2">
+				<TextView android:textSize="40sp" android:textStyle="1" android:textColor="000" android:id="false" android:layout_width="270dp" android:layout_height="-2" android:text="ราคาที่เติม" />
+				<TextView android:textSize="26sp" android:textStyle="1" android:textColor="000" android:gravity="5" android:id="false" android:layout_width="100dp" android:layout_height="-2" android:layout_marginRight="3dp" android:text="30" />
+				<TextView android:textSize="40sp" android:textStyle="1" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="บาท" />
+			</LinearLayout>
+			<LinearLayout android:layout_gravity="17" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp">
+				<TextView android:textSize="40sp" android:textStyle="1" android:textColor="000" android:id="false" android:layout_width="270dp" android:layout_height="-2" android:text="ค่าบริการตู้" />
+				<TextView android:textSize="26sp" android:textStyle="1" android:textColor="000" android:gravity="5" android:id="false" android:layout_width="100dp" android:layout_height="-2" android:layout_marginRight="3dp" android:text="80" />
+				<TextView android:textSize="40sp" android:textStyle="1" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="บาท" />
+			</LinearLayout>
+			<LinearLayout android:layout_gravity="17" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp">
+				<TextView android:textSize="40sp" android:textStyle="1" android:textColor="000" android:id="false" android:layout_width="270dp" android:layout_height="-2" android:text="เครดิสเดิม" />
+				<TextView android:textSize="26sp" android:textStyle="1" android:textColor="000" android:gravity="5" android:id="false" android:layout_width="100dp" android:layout_height="-2" android:layout_marginRight="3dp" android:text="100" />
+				<TextView android:textSize="40sp" android:textStyle="1" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="บาท" />
+			</LinearLayout>
+			<LinearLayout android:layout_gravity="1" android:orientation="1" android:background="res/drawable-land-mdpi-v4/button_confirm.png" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
+				<LinearLayout android:layout_width="-2" android:layout_height="-2">
+					<TextView android:textSize="40sp" android:textStyle="1" android:textColor="ffffff" android:id="false" android:layout_width="270dp" android:layout_height="-2" android:layout_marginTop="10dp" android:text="ต้องหยอดเงิน" />
+					<TextView android:textSize="26sp" android:textStyle="1" android:textColor="ffffff" android:gravity="5" android:id="false" android:layout_width="100dp" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginRight="2dp" android:text="100" android:layout_alignParentRight="true" />
+					<TextView android:textSize="40sp" android:textStyle="1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:text="บาท" android:layout_alignParentRight="true" />
+				</LinearLayout>
+				<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp">
+					<TextView android:textSize="40sp" android:textStyle="1" android:textColor="ffffff" android:id="false" android:layout_width="270dp" android:layout_height="-2" android:text="หยอดเข้ามาแล้ว" />
+					<TextView android:textSize="26sp" android:textStyle="1" android:textColor="ffffff" android:gravity="5" android:id="false" android:layout_width="100dp" android:layout_height="-2" android:layout_marginRight="2dp" android:text="100" android:layout_alignParentRight="true" />
+					<TextView android:textSize="40sp" android:textStyle="1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="บาท" android:layout_alignParentRight="true" />
+				</LinearLayout>
+				<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp">
+					<TextView android:textSize="40sp" android:textStyle="1" android:textColor="ffffff" android:id="false" android:layout_width="270dp" android:layout_height="-2" android:text="ต้องหยอดอีก" />
+					<TextView android:textSize="26sp" android:textStyle="1" android:textColor="ffffff" android:gravity="5" android:id="false" android:layout_width="100dp" android:layout_height="-2" android:layout_marginRight="2dp" android:text="100" android:layout_alignParentRight="true" />
+					<TextView android:textSize="40sp" android:textStyle="1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="บาท" android:layout_alignParentRight="true" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<FrameLayout android:layout_gravity="85" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+		<include android:layout_width="-1" android:layout_height="-2" layout="@layout/footer_menu" />
+	</FrameLayout>
+</FrameLayout>

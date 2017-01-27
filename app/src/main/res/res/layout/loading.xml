@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-mdpi-v4/bg_blue.png">
+	<FrameLayout android:id="false" android:background="res/drawable-mdpi-v4/bg_blue.png" android:layout_width="-1" android:layout_height="-1">
+		<FrameLayout android:layout_gravity="17" android:layout_width="-2" android:layout_height="-2">
+			<ViewFlipper android:id="false" android:layout_width="-2" android:layout_height="-2" android:flipInterval="200" android:layout_weight="{4:1028443341}" android:autoStart="true">
+				<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-mdpi-v4/loading0001.png" />
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-mdpi-v4/loading0011.png" />
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-mdpi-v4/loading0031.png" />
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-mdpi-v4/loading0041.png" />
+			</ViewFlipper>
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="49" android:visibility="0" android:layout_width="-2" android:layout_height="-2">
+			<include android:layout_width="-2" android:layout_height="-2" layout="@layout/header_menu" />
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="81" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2">
+			<include android:layout_width="-2" android:layout_height="-2" layout="@layout/footer_menu" />
+		</FrameLayout>
+	</FrameLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<include android:layout_width="-1" android:layout_height="-2" layout="@layout/header_menu" />
+	<FrameLayout android:background="ffffff" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="80dp">
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-mdpi-v4/bg_blue.png" android:scaleType="1" />
+		<FrameLayout android:layout_gravity="17" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textAppearance="{2:16842818}" android:textSize="60sp" android:textStyle="1" android:textColor="000" android:gravity="17" android:layout_gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="100dp" android:text="Error Message" />
+			<Button android:textSize="30sp" android:textStyle="1" android:textColor="000" android:layout_gravity="17" android:id="false" android:background="res/drawable-mdpi-v4/bt_number.png" android:visibility="2" android:layout_width="400dp" android:layout_height="-2" android:text="ปริ้นใบยืนยันรายการ" android:hint="5" android:layout_weight="{4:1060320051}" />
+		</FrameLayout>
+		<include android:layout_gravity="81" android:layout_width="-1" android:layout_height="-2" layout="@layout/footer_menu" />
+	</FrameLayout>
+</FrameLayout>

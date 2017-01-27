@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<include android:layout_width="-1" android:layout_height="-2" layout="@layout/header_menu" />
+	<FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="80dp">
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-mdpi-v4/bg_blue.png" android:scaleType="1" />
+		<FrameLayout android:background="ffffff" android:layout_width="-1" android:layout_height="-1" />
+		<LinearLayout android:layout_gravity="1" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textAppearance="{2:16842818}" android:textSize="30sp" android:textStyle="1" android:textColor="000" android:layout_gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="xoxoxoxoxo" />
+			<TextView android:textAppearance="{2:16842818}" android:textSize="30sp" android:textStyle="1" android:textColor="000" android:layout_gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="xoxoxoxoxo" />
+		</LinearLayout>
+		<LinearLayout android:layout_gravity="17" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<LinearLayout android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1120403456}">
+				<Button android:textSize="18sp" android:textStyle="1" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-1" android:layout_height="-2" android:text="เปิดตู้" android:layout_weight="{4:1112014848}" />
+				<Button android:textSize="18sp" android:textStyle="1" android:id="false" android:background="res/drawable-mdpi-v4/bt_menu.png" android:layout_width="-1" android:layout_height="-2" android:text="ปิดตู้" android:layout_weight="{4:1112014848}" android:layout_alignParentTop="true" />
+			</LinearLayout>
+		</LinearLayout>
+		<FrameLayout android:layout_gravity="81" android:layout_width="-1" android:layout_height="-2">
+			<include android:layout_width="-1" android:layout_height="-2" layout="@layout/footer_menu" />
+		</FrameLayout>
+		<TextView android:textAppearance="{2:16842816}" android:textColor="000" android:layout_gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="100dp" android:text="กดปุ่มเปิดตู้ก่อนทำการเปิดช่องเก็บเงิน" />
+		<CheckBox android:textSize="30sp" android:textStyle="1" android:textColor="000" android:layout_gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="100dp" android:layout_marginTop="150dp" android:text="SMS Alert" />
+	</FrameLayout>
+</FrameLayout>
